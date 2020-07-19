@@ -9,6 +9,8 @@
 <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 
+ <table width=300 height=400>
+  
 /* Global Styles
   ---------------------------------------------- */
   html {font-family: 'Open Sans', sans-serif; background: #0D133A; height:100%; font-size: 100%; text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-smoothing: antialiased;overflow: hidden;position: relative;}
