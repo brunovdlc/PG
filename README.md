@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic" rel="stylesheet" />
 <link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
 
-</script>
+
 <style>
     html { font-size: 15px; }
     html, body { margin: 0; padding: 0; min-height: 100%; }
