@@ -1,17 +1,23 @@
 
+<!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
 
-<meta name="apple-mobile-web-app-title" content="CodePen">
-<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
-<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
-<meta charset="utf-8">
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<title>CodePen - Parallax scroll animation</title>
+<title>Bruno</title>
 <link rel="stylesheet" media="screen" href="https://static.codepen.io/assets/fullpage/fullpage-4de243a40619a967c0bf13b95e1ac6f8de89d943b7fc8710de33f681fe287604.css" />
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic" rel="stylesheet" />
 <link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
-
-
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<title>Bruno</title>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
 <style>
     html { font-size: 15px; }
     html, body { margin: 0; padding: 0; min-height: 100%; }
@@ -31,10 +37,14 @@
     .referer-warning h1 { font-size: 1.2rem; margin: 0; }
     .referer-warning a { color: #56bcf9; } /* $linkColorOnBlack */
   </style>
-
+</head>
 <body class="">
-
-
+<div class="referer-warning">
+<h1>⚠️ Do not enter passwords or personal information on this page. ⚠️</h1>
+This is a code demo posted by a web developer on <a href="https://codepen.io">codepen.io</a>.
+<br />
+A referer from CodePen is required to render this page view, and your browser is not sending one (<a href="https://blog.codepen.io/2017/10/05/regarding-referer-headers/" target="_blank">more details</a>).</h1>
+</div>
 <div id="result-iframe-wrap" role="main">
 <iframe id="result" srcdoc="
 <!DOCTYPE html>
