@@ -31,10 +31,10 @@
     .referer-warning h1 { font-size: 1.2rem; margin: 0; }
     .referer-warning a { color: #56bcf9; } /* $linkColorOnBlack */
   </style>
-</head>
+
 <body class="">
 
-</div>
+
 <div id="result-iframe-wrap" role="main">
 <iframe id="result" srcdoc="
 <!DOCTYPE html>
